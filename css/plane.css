@@ -1,0 +1,104 @@
+﻿.main{
+    width:560px;
+    height:550px;
+    position: relative;
+}
+.container1{
+    width:560px;
+    height:550px;
+    margin:0 auto;
+    position:absolute;
+    top:0;
+}
+.red {
+    width: 20px;
+    height: 20px;
+    background: url("../images/red.png") no-repeat center;
+    position: absolute;
+    transition: all 1s;
+}
+#red1{
+    left: 50px;
+    top: 47px;
+}
+#red2{
+    left: 100px;
+    top: 47px;
+}
+#red3{
+    left: 50px;
+    top: 96px;
+}
+#red4{
+    left: 100px;
+    top: 96px;
+}
+.yellow{
+     width: 20px;
+    height: 20px;
+    background: url("../images/yellow.png") no-repeat center;
+    position: absolute;
+    transition: all 1s;
+}
+#yellow1{
+    top:47px;
+    left:438px;
+}
+#yellow2{
+    top:47px;
+    left:490px;
+}
+#yellow3{
+    top:97px;
+    left:438px;
+}
+#yellow4{
+    top:97px;
+    left:490px;
+}
+.green{
+     width: 20px;
+    height: 20px;
+    background: url("../images/green.png") no-repeat center;
+    position: absolute;
+    transition: all 1s;
+}
+#green1{
+    top:436px;
+    left:50px;
+}
+#green2{
+    top:436px;
+    left:100px;
+}
+#green3{
+    top:485px;
+    left:50px;
+}
+#green4{
+    top:485px;
+    left:100px;
+}
+.blue{
+     width: 20px;
+    height: 20px;
+    background: url("../images/blue.png") no-repeat center;
+    position: absolute;
+    transition: all 1s;
+}
+#blue1{
+    top:436px;
+    left:438px;
+}
+#blue2{
+    top:436px;
+    left:488px;
+}
+#blue3{
+    top:488px;
+    left:438px;
+}
+#blue4{
+    top:488px;
+    left:488px;
+}

@@ -1,0 +1,52 @@
+﻿.container{
+	position:absolute;
+	
+	left:49%;
+	list-style: none;
+	transform-style: preserve-3d; 
+	/*perspective:1000px;*/
+	transform: rotateX(-45deg)  rotateY(-45deg);
+	-webkit-transform-origin:50% 50% 50%;
+
+}
+.animate{
+	animation:animate .3s linear;
+
+}
+@keyframes animate{
+    0% {
+        transform: rotateX(-90deg) rotateY(-90deg) rotateZ(-90deg);
+    }
+    50% {
+        transform: rotateX(-180deg) rotateY(180deg) rotateZ(-180deg);
+    }  
+    100% {
+        transform: rotateX(-360deg) rotateY(360deg) rotateZ(-360deg);
+    }   
+}
+.canvas{
+	position:absolute;
+	background: #f00;
+	border-radius: 5px;
+	border:1px solid #000;
+	border:1px solid #fff;
+}
+/*上下面*/
+.canvas:nth-of-type(2) {
+transform: rotateX(90deg) translateZ(25px)   
+}
+.canvas:nth-of-type(3) {
+transform: rotateX(90deg) translateZ(-25px)
+}
+.canvas:nth-of-type(4) {
+transform: rotateY(90deg) translateZ(25px)
+}
+.canvas:nth-of-type(5) {
+transform: rotateY(90deg) translateZ(-25px)
+}
+.canvas:nth-of-type(1) {
+transform: translateZ(25px)
+}
+.canvas:nth-of-type(6) {
+transform: translateZ(-25px)
+}
